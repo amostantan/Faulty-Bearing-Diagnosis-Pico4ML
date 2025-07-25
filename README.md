@@ -6,7 +6,7 @@ The applications used are: Arduino IDE, Jupyter Lab & VS Code
 The content goes as follows:
 1. Pico4ML Libraries & Board Manager in Arduino IDE
 2. Data collection
-    1. Printing of Accelerometer values on Serial monitor
+    1. Printing of Accelerometer values on Serial monitor (Arduino IDE)
     2. Extracting of values from serial monitor & recording onto Excel sheets
 3. Data Processing & Training of Model
     1. Data Preprocessing
