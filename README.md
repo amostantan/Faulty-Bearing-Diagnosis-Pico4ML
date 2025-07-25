@@ -1,6 +1,8 @@
 # FaultyBearing-Diagnosis-Pico4ML
 This github repository goes through the flow of how the faulty bearing diagnostic system was designed.
+
 The applications used are: Arduino IDE, Jupyter Lab & VS Code
+
 The content goes as follows:
 1. Pico4ML Libraries & Board Manager in Arduino IDE
 2. Data collection
