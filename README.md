@@ -63,7 +63,8 @@ Once the variables are the same, copy and paste the model into the 'magic_wand_m
 
 <img src="Arduino_Images/Arduino_Ops.jpg" alt="Alt text" width="800"/>
 
-In the file named - 'MachineDetection.ino', change the operations to the operations used during Model Training. However, do take note of the supported operations in TFLite Micro.
+In the file named - 'MachineDetection.ino', change the operations to the operations used during Model Training as shown on the figure above.
+However, do take note of the supported operations in TFLite Micro.
 
 <img src="Arduino_Images/Arduino_Std.jpg" alt="Alt text" width="800"/>
 
