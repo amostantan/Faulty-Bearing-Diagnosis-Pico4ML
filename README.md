@@ -47,6 +47,6 @@ Use the datasets retrieved in 'Data Collection', train and observe results.
 Once satisfactory results are observed, quantize the model.
 
 # 4. Converting TFLite file into C array
-<img src="Arduino_Images/TFliteToCArray.jpg" alt="Alt text" width="400"/>
+<img src="Arduino_Images/TFliteToCArray.jpg" alt="Alt text" width="600"/>
 
 Use a Vim to convert the .tflite file to .c format with the above command.
