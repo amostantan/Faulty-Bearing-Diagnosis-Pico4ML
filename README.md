@@ -17,3 +17,4 @@ The content goes as follows:
 6. Observe model outputs
 
 # Pico4ML Libraries & Board Managers to add
+![Alt text](Arduino_Images/Arduino_Lib.jpg)
