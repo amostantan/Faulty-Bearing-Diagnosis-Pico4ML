@@ -43,6 +43,7 @@ Run it with a python compiler when the Pico4ML is running and outputting acceler
 # 3. Data Preprocessing & Training of Model
 Download the file named - 'Data_Preprocessing_Training_Model.ipynb'
 
+When standardizing, take note of the Std and Mean values for axes x, y, z.
 Use the datasets retrieved in 'Data Collection', train and observe results.
 Once satisfactory results are observed, quantize the model.
 
@@ -50,3 +51,19 @@ Once satisfactory results are observed, quantize the model.
 <img src="Arduino_Images/TFliteToCArray.jpg" alt="Alt text" width="600"/>
 
 Use a Vim to convert the .tflite file to .c format with the above command.
+
+# 5. Implement the Model into Pico4ML
+<img src="Arduino_Images/Arduino_Model.jpg" alt="Alt text" width="800"/>
+<img src="Arduino_Images/Arduino_Model_1.jpg" alt="Alt text" width="800"/>
+
+Change the variable names of the C Array model to the same as the above two images.
+
+Once the variables are the same, copy and paste the model into the 'magic_wand_model_data.cpp' folder.
+
+<img src="Arduino_Images/Arduino_Ops.jpg" alt="Alt text" width="800"/>
+
+In the file named - 'MachineDetection.ino', change the operations to the operations used during Model Training. However, do take note of the supported operations in TFLite Micro.
+
+<img src="Arduino_Images/Arduino_Std.jpg" alt="Alt text" width="800"/>
+
+In the file named - 'accelerometer_handler.cpp', change the values to the ones used during standardization in section 'Data Preprocessing & Training of Model' as shown in the picture above.
