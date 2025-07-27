@@ -70,3 +70,7 @@ In the file named - 'accelerometer_handler.cpp', change the values to the ones u
 
 # 6. Observe Results of the Model
 The model should be outputting raw logits and the highest raw logit represents the model's prediction.
+>Add Image of Normal model raw logits<
+>Add Image of Outer model raw logits<
+>Add Image of Inner model raw logits<
+>Add Image of Cage model raw logits<
