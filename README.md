@@ -25,4 +25,5 @@ Add the above library to the Arduino IDE
 
 Add the above board extension to Arduino IDE
 
+![Alt text](Arduino_Images/Arduino_Pref.jpg)
 
