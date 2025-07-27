@@ -16,7 +16,7 @@ The content goes as follows:
 5. Implement the model into Pico4ML
 6. Observe model outputs
 
-# Pico4ML Libraries & Board Managers to add
+# 1. Pico4ML Libraries & Board Managers
 ![Alt text](Arduino_Images/Arduino_Lib.jpg)
 
 Add the above library to the Arduino IDE
@@ -27,3 +27,16 @@ Add the above board extension to Arduino IDE
 
 ![Alt text](Arduino_Images/Arduino_Pref.jpg)
 
+https://www.arducam.com/downloads/Pico/package_pico4ML_index.json
+
+In File > Preferences > Additional boards manager URL, add this link
+
+# 2. Data Collection
+
+i. Download the folder named - 'Data_Collection_i', execute and flash into the Pico4ML, open up the serial monitor and the outputs should look like this:
+>Add Image here< - this should be the serial monitor for accel values
+
+ii. Download the file named - 'Data_Collection_ii', run it with a python compiler when the Pico4ML is running and outputting accelerometer values.
+>Add Image Here< - this should be the python output showing Logged values
+
+# 3. Data Preprocessing & Training of Model
