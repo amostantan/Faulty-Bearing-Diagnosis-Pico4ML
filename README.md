@@ -18,3 +18,11 @@ The content goes as follows:
 
 # Pico4ML Libraries & Board Managers to add
 ![Alt text](Arduino_Images/Arduino_Lib.jpg)
+
+Add the above library to the Arduino IDE
+
+![Alt text](Arduino_Images/Arduino_Board.jpg)
+
+Add the above board extension to Arduino IDE
+
+
