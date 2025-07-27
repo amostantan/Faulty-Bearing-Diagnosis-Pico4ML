@@ -15,3 +15,5 @@ The content goes as follows:
 4. Model conversion from format .tflite > .c
 5. Implement the model into Pico4ML
 6. Observe model outputs
+
+# Pico4ML Libraries & Board Managers to add
