@@ -32,7 +32,8 @@ https://www.arducam.com/downloads/Pico/package_pico4ML_index.json
 In File > Preferences > Additional boards manager URL, add this link
 
 # 2. Data Collection
-i. Download the folder named - 'Data_Collection_i', execute and flash into the Pico4ML
+i. Download the folder named - 'Data_Collection_i', execute and flash into the Pico4ML.
+
 Open up the serial monitor and the outputs should look like this:
 >Add Image here< - this should be the serial monitor for accel values
 
