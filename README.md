@@ -67,3 +67,6 @@ In the file named - 'MachineDetection.ino', change the operations to the operati
 <img src="Arduino_Images/Arduino_Std.jpg" alt="Alt text" width="800"/>
 
 In the file named - 'accelerometer_handler.cpp', change the values to the ones used during standardization in section 'Data Preprocessing & Training of Model' as shown in the picture above.
+
+# 6. Observe Results of the Model
+The model should be outputting raw logits and the highest raw logit represents the model's prediction.
