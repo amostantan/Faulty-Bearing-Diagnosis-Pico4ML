@@ -35,7 +35,7 @@ In File > Preferences > Additional boards manager URL, add this link
 i. Download the folder named - 'Data_Collection_i', execute and flash into the Pico4ML.
 
 Open up the serial monitor and the outputs should look like this:
-<img src="Arduino_Images/RawLogit.jpg" alt="Alt text" width="800"/>
+<img src="Arduino_Images/RawLogit.jpg" alt="Alt text" width="500"/>
 
 ii. Download the file named - 'Data_Collection_ii'
 Run it with a python compiler when the Pico4ML is running and outputting accelerometer values.
