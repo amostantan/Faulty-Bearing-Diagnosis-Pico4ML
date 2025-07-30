@@ -35,11 +35,12 @@ In File > Preferences > Additional boards manager URL, add this link
 i. Download the folder named - 'Data_Collection_i', execute and flash into the Pico4ML.
 
 Open up the serial monitor and the outputs should look like this:
->Add Image here< - this should be the serial monitor for accel values
+<img src="Arduino_Images/RawLogit.jpg" alt="Alt text" width="800"/>
 
 ii. Download the file named - 'Data_Collection_ii'
 Run it with a python compiler when the Pico4ML is running and outputting accelerometer values.
->Add Image Here< - this should be the python output showing Logged values
+
+<img src="Arduino_Images/rawlogit_Logging.jpg" alt="Alt text" width="800"/>
 
 # 3. Data Preprocessing & Training of Model
 Download the file named - 'Data_Preprocessing_Training_Model.ipynb'
