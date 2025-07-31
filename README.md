@@ -77,8 +77,19 @@ In the file named - 'accelerometer_handler.cpp', change the values to the ones u
 # 6. Observe Results of the Model
 The model should be outputting raw logits and the highest raw logit represents the model's prediction.
 
+Normal:
+
 <img src="Arduino_Images/Arduino_Normal.jpg" alt="Alt text" width="500"/>
+
+Outer:
+
 <img src="Arduino_Images/Arduino_Outer.jpg" alt="Alt text" width="500"/>
+
+Inner:
+
 <img src="Arduino_Images/Arduino_Inner.jpg" alt="Alt text" width="500"/>
+
+Cage:
+
 <img src="Arduino_Images/Arduino_Cage.jpg" alt="Alt text" width="500"/>
 
